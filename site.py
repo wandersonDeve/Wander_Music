@@ -18,6 +18,7 @@ class Musica(db.Model):
         self.link = link
 
 @site.route('/')
+@site.route('/index')
 def index():
     musicas = Musica.query.all()
     return render_template('index.html', musicas=musicas)
