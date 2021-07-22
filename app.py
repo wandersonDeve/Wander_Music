@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 
-site = Flask(__name__)
-site.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///musicas.sqlite3'
-db = SQLAlchemy(site)
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///musicas.sqlite3'
+db = SQLAlchemy(app)
 
 
 class Musica(db.Model):
@@ -17,13 +17,13 @@ class Musica(db.Model):
         self.artista = artista
         self.link = link
 
-@site.route('/')
-@site.route('/index')
+@app.route('/')
+@app.route('/index')
 def index():
     musicas = Musica.query.all()
     return render_template('index.html', musicas=musicas)
 
-@site.route('/new', methods=['GET','POST'])
+@app.route('/new', methods=['GET','POST'])
 def new():
     if request.method == 'POST':
         musica = Musica(
@@ -36,7 +36,7 @@ def new():
         return redirect('/#playlist')
     return render_template('new.html',)
 
-@site.route('/edit/<id>', methods=['GET','POST'])
+@app.route('/edit/<id>', methods=['GET','POST'])
 def edit(id):
     musica = Musica.query.get(id)
     if request.method == 'POST':
@@ -47,7 +47,7 @@ def edit(id):
         return redirect('/#playlist')
     return render_template('edit.html', musica = musica)
 
-@site.route('/delete/<id>')
+@app.route('/delete/<id>')
 def delete(id):
     musica = Musica.query.get(id)
     db.session.delete(musica)
@@ -56,4 +56,4 @@ def delete(id):
 
 if __name__ == '__main__':
     db.create_all()
-    site.run(debug=True)
+    app.run(debug=True)
