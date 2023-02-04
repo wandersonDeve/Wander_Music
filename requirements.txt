@@ -15,7 +15,7 @@ future==0.18.3
 greenlet==1.1.0
 gunicorn==20.1.0
 ipykernel==5.5.5
-ipython==7.25.0
+ipython==7.31.1
 ipython-genutils==0.2.0
 itsdangerous==2.0.1
 jedi==0.18.0
