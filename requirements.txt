@@ -36,7 +36,7 @@ python-dateutil==2.8.1
 pywin32-ctypes==0.2.0
 pyzmq==22.1.0
 six==1.16.0
-SQLAlchemy==1.4.20
+SQLAlchemy==1.4.47
 tornado==6.1
 traitlets==5.0.5
 virtualenv==20.4.7
