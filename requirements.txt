@@ -1,4 +1,4 @@
-﻿altgraph==0.17
+﻿altgraph==0.17.3
 appdirs==1.4.4
 backcall==0.2.0
 blinker==1.4
