@@ -40,5 +40,5 @@ SQLAlchemy==1.4.47
 tornado==6.1
 traitlets==5.0.5
 virtualenv==20.4.7
-wcwidth==0.2.5
+wcwidth==0.2.6
 Werkzeug==2.2.3
