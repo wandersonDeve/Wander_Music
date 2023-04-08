@@ -27,7 +27,7 @@ matplotlib-inline==0.1.2
 parso==0.8.2
 pefile==2021.5.24
 pickleshare==0.7.5
-prompt-toolkit==3.0.19
+prompt-toolkit==3.0.38
 pygame==2.0.1
 Pygments==2.9.0
 pyinstaller==4.3
