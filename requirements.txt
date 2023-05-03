@@ -1,4 +1,4 @@
-﻿altgraph==0.17.3
+altgraph==0.17.3
 appdirs==1.4.4
 backcall==0.2.0
 blinker==1.4
@@ -8,7 +8,7 @@ decorator==5.0.9
 distlib==0.3.2
 emoji==1.2.0
 filelock==3.0.12
-Flask==2.0.1
+Flask==2.2.5
 Flask-Mail==0.9.1
 Flask-SQLAlchemy==2.5.1
 future==0.18.3
