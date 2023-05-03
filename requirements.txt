@@ -22,7 +22,7 @@ jedi==0.18.2
 Jinja2==3.0.1
 jupyter-client==6.1.12
 jupyter-core==4.11.2
-MarkupSafe==2.0.1
+MarkupSafe==2.1.2
 matplotlib-inline==0.1.6
 parso==0.8.2
 pefile==2021.5.24
