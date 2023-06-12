@@ -14,7 +14,7 @@ Flask-SQLAlchemy==3.0.3
 future==0.18.3
 greenlet==2.0.2
 gunicorn==20.1.0
-ipykernel==6.23.1
+ipykernel==6.23.2
 ipython==8.14.0
 ipython-genutils==0.2.0
 itsdangerous==2.1.2
