@@ -29,7 +29,7 @@ pefile==2023.2.7
 pickleshare==0.7.5
 prompt-toolkit==3.0.39
 pygame==2.5.0
-Pygments==2.15.1
+Pygments==2.16.1
 pyinstaller==5.13.0
 pyinstaller-hooks-contrib==2023.6
 python-dateutil==2.8.2
