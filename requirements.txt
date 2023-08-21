@@ -8,7 +8,7 @@ decorator==5.1.1
 distlib==0.3.7
 emoji==2.8.0
 filelock==3.12.2
-Flask==2.3.2
+Flask==2.3.3
 Flask-Mail==0.9.1
 Flask-SQLAlchemy==3.0.5
 future==0.18.3
