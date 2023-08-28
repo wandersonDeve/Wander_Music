@@ -7,7 +7,7 @@ colorama==0.4.6
 decorator==5.1.1
 distlib==0.3.7
 emoji==2.8.0
-filelock==3.12.2
+filelock==3.12.3
 Flask==2.3.3
 Flask-Mail==0.9.1
 Flask-SQLAlchemy==3.0.5
