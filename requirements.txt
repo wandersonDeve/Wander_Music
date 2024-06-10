@@ -9,7 +9,7 @@ distlib==0.3.8
 emoji==2.12.1
 filelock==3.13.1
 Flask==3.0.3
-Flask-Mail==0.9.1
+Flask-Mail==0.10.0
 Flask-SQLAlchemy==3.1.1
 future==0.18.3
 greenlet==3.0.3
