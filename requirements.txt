@@ -41,4 +41,4 @@ tornado==6.4.1
 traitlets==5.14.1
 virtualenv==20.25.0
 wcwidth==0.2.12
-Werkzeug==3.0.1
+Werkzeug==3.0.3
