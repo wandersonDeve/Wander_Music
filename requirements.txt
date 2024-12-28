@@ -33,7 +33,7 @@ Pygments==2.18.0
 pyinstaller==6.11.1
 pyinstaller-hooks-contrib==2024.7
 python-dateutil==2.9.0.post0
-pywin32-ctypes==0.2.2
+pywin32-ctypes==0.2.3
 pyzmq==25.1.2
 six==1.16.0
 SQLAlchemy==2.0.36
