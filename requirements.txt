@@ -30,7 +30,7 @@ pickleshare==0.7.5
 prompt-toolkit==3.0.53
 pygame==2.6.1
 Pygments==2.21.0
-pyinstaller==6.22.2
+pyinstaller==6.22.3
 pyinstaller-hooks-contrib==2025.11
 python-dateutil==2.9.0.post0
 pywin32-ctypes==0.2.3
